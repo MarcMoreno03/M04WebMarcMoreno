@@ -78,14 +78,14 @@ li{
 }
 
 .contact-wrapper > *{
-    padding: 1em;
+    padding: 20px;
 }
 
 .content{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
+    padding: 20px;
 }
 
 .logo{
@@ -111,7 +111,7 @@ li{
 
 .contact-form form p{
     margin: 0;
-    padding: 1em;
+    padding: 20px;
 }
 
 .contact-form form .block{
@@ -127,7 +127,7 @@ li{
 .contact-form form input,
 .contact-form form textarea {
     width: 100%;
-    padding: .7em;
+    padding: 10px;
     border: none;
     background: none;
     outline: 0;
@@ -140,7 +140,7 @@ li{
     color: #000;
     border: 0;
     text-transform: uppercase;
-    padding: 1em;
+    padding: 13px;
 }
 
 .contact-form form button:hover,
@@ -169,7 +169,7 @@ li{
 }
 
 .contact-info ul li {
-    padding: .5em ;
+    padding: 10px ;
 }
 
 /********************************************************/
