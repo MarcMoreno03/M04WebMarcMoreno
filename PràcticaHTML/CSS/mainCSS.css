@@ -108,11 +108,31 @@ nav{
 
 /* FOOTER */
 
-footer{
-    margin-top: 100px;
+.footerList{
+    text-align: center;
 }
 
-footer div ul li{
-    margin-right: auto;
-    margin-left: auto;
+footer div h4{
+    text-align: center;
+    color: whitesmoke;
 }
+
+footer div ul a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2F2F2F;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+footer div ul a:hover{
+    color: #5957B8;
+    transition: ease-in-out 0.13s;
+}
+
