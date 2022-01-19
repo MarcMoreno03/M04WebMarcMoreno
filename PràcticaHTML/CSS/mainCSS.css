@@ -136,3 +136,12 @@ footer div ul a:hover{
     transition: ease-in-out 0.13s;
 }
 
+.aboutMe{
+    text-decoration: none;
+
+}
+
+.aboutMe p{
+    color: black;
+}
+
