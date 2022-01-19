@@ -75,6 +75,7 @@ li{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 .contact-wrapper > *{
@@ -202,8 +203,48 @@ li{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 15px;
+    padding: 0px;
     margin-top: 35px;
     border: solid black 2px;
     border-radius: 10px;
+}
+
+
+/* FOOTER */
+
+.footerList{
+    text-align: center;
+}
+
+footer div h4{
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer div ul a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2F2F2F;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border-top: black solid 2px;
+}
+
+footer div ul a:hover{
+    color: #5957B8;
+    transition: ease-in-out 0.13s;
+}
+
+.aboutMe{
+    text-decoration: none;
+
+}
+
+.aboutMe p{
+    color: black;
 }
