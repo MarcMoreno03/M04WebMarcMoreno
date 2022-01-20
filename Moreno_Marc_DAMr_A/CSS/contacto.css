@@ -292,7 +292,7 @@ footer div ul a:hover{
     transition: ease-in-out 0.13s;
 }
 
-.contactRed{
+.contactAboutMe{
     color: #5957B8;
 }
 
@@ -397,4 +397,27 @@ footer div ul a:hover{
     border-radius: 10px;
     border: solid red 2px ;
     margin: 18px;
+}
+
+
+
+/* RECETA */
+
+
+.recipeImg{
+    width: 500px;
+    height: 500px;
+}
+
+.recipeS1{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+.recipeS2{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
 }

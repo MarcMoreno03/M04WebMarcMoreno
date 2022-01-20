@@ -61,31 +61,6 @@ li{
     margin-bottom: 25px;
 }
 
-
-aside {
-    padding-left: 40px;
-    display: flex;
-}
-
-.sobremi {
-    width: 200px;
-    text-align: center;
-
-}
-
-.sobremiback{
-    border: solid black 2px;
-    background-color: #6E6CBD;
-    width: 200px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.wolfangradius{
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
-}
-
 nav{
     margin-bottom: 17px;
     width: 100%;
@@ -146,7 +121,7 @@ footer div ul a:hover{
 }
 
 
-
+/* ABOUT ME ASIDE */
 
 .aboutMe{
     text-decoration: none;
@@ -155,14 +130,17 @@ footer div ul a:hover{
 
 }
 
+.sobremiback:hover{
+    border: solid black 3px; 
+    transition: ease-in-out 0.12s;
+
+}
+
 .aboutMe p{
     color: black;
     
 }
 
-.left{
-    width: 30%;
-}
 
 aside{
     width: 100%;
@@ -185,3 +163,95 @@ aside{
     border-top-right-radius: 4px;
     border: solid black 1px;
 }
+
+aside {
+    padding-left: 40px;
+    display: flex;
+}
+
+.sobremi {
+    width: 200px;
+    text-align: center;
+
+}
+
+.sobremiback{
+    border: solid black 2px;
+    background-color: #6E6CBD;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.wolfangradius{
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+
+/* RECETAS DESTACADAS */
+
+.right{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left{
+    width: 30%;
+    
+}
+
+.featuredRecipes{
+    width: 100%;
+    max-width: 300px;
+    margin: 25px;
+    border: solid black 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2F2F2F;
+    border-radius: 10px;
+    
+    color: whitesmoke;
+}
+
+main{
+    display: flex;
+}
+
+.right p {
+    text-align: center;
+    width: 100%;
+
+}
+
+.featuredRecipes p span{
+    color: #5957B8;
+    font-size: large;
+}
+
+.featuredRecipes img{
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+.featuredRecipes:hover{
+    border: solid #5957B8 2.75px;
+}
+
+.featured{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.featuredRecipes a{
+    text-decoration: none;
+}
+
+.right a{
+    text-decoration: none;
+}
+
+
+
