@@ -18,6 +18,7 @@ body{
     padding-top: 10px;
     padding-bottom: 5px;
     width: 90%;
+    margin-bottom: 25px;
 }
 
 /********************************************************************/
@@ -31,6 +32,12 @@ body{
     padding: 15px;
     background-color: #5957B8;
     border: solid black 2px;
+    margin: 0px;
+}
+
+.mapOfWeb{
+    position: sticky;
+    top: 0;
 }
 
 .mainList a{

@@ -19,8 +19,14 @@ body{
     padding: 15px;
     background-color: #5957B8;
     border: solid black 2px;
-    
+    margin: 0px;
 }
+
+.mapOfWeb{
+    position: sticky;
+    top: 0;
+}
+
 .mainList a{
     color: black;
     text-decoration: none;
@@ -52,6 +58,7 @@ li{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 
@@ -89,6 +96,7 @@ nav{
 .mapOfWeb ul li{
     border-right: solid black 2px;
 }
+
 
 .exceptionIndex{
     border-left: solid black 2px;
